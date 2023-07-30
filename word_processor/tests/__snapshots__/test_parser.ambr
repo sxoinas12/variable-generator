@@ -1,0 +1,8 @@
+# name: test_parser[Regex for redacted phone numbers with extra info for PlayStation]
+  <class 'list'> [
+    'Regexfornumbersredacted',
+    'Regexfornumbersphone',
+    'Regexfornumberswithinfoextra',
+    'RegexfornumberswithinfoforPlayStation',
+  ]
+---

@@ -1,0 +1,20 @@
+# name: test_antonyms[cat]
+  <class 'list'> [
+  ]
+---
+# name: test_antonyms[dog]
+  <class 'list'> [
+  ]
+---
+# name: test_antonyms[factory]
+  <class 'list'> [
+  ]
+---
+# name: test_antonyms[fetcher]
+  <class 'list'> [
+  ]
+---
+# name: test_antonyms[serializer]
+  <class 'list'> [
+  ]
+---

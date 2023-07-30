@@ -1,0 +1,26 @@
+# name: test_leaf_no_prep_strategy[Regex for redacted phone numbers with extra info for PlayStation-expected0]
+  <class 'list'> [
+    <class 'list'> [
+      'Regex',
+      'numbers',
+      'redacted',
+    ],
+    <class 'list'> [
+      'Regex',
+      'numbers',
+      'phone',
+    ],
+    <class 'list'> [
+      'Regex',
+      'numbers',
+      'info',
+      'extra',
+    ],
+    <class 'list'> [
+      'Regex',
+      'numbers',
+      'info',
+      'PlayStation',
+    ],
+  ]
+---

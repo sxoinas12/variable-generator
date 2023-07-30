@@ -1,0 +1,86 @@
+from spacy.tokens import Token
+
+from word_processor.types import DEP_TYPES
+
+
+def flip_prep_pobj_strategy(doc) -> [[Token]]:
+    """
+    Should return an arrays of variable names based on compound strategy
+    Uses adverbial strategy and also adds compounds to nouns
+
+    e.g.
+    Reads black phone numbers
+    Will treat PhoneNumbers as a single entity.
+
+    :param doc: spacy document
+    :return Array of strings
+    """
+    suggestions = []
+    for token in doc:
+        if token.dep_ == DEP_TYPES['ROOT']:
+            suggestions = prep_dfs(token)
+            break
+
+    return suggestions
+
+
+INVALID_DEP = ['aux', 'prep']
+INVALID_POS = ['DET', 'AUX', 'ADP']
+FLIP_DEP = ['compound', 'amod']
+PREPEND_DEP = ['pobj']
+
+
+def is_valid(node, existing=None):
+    return (
+            not (node.pos_ in INVALID_POS)
+            and not (node.dep_ in INVALID_DEP)
+            and not (node in existing if existing else False)
+    )
+
+
+def should_flip(node):
+    return node.dep_ in FLIP_DEP
+
+
+def should_prepend(node):
+    return node.dep_ in PREPEND_DEP
+
+
+def prep_dfs(node, result=None, output=None, root=None):
+    if output is None:
+        output = []
+    if result is None:
+        result = []
+
+    has_parent = node.head != node and root != node
+    has_children = (node.n_lefts + node.n_rights) > 0
+    has_both_directions = node.n_lefts > 0 and node.n_rights > 0
+
+    if should_flip(node) and has_parent and is_valid(node, result):
+        prep_dfs(node.head, [*result[:-1], node], output, root=root)
+        return output
+
+    if has_parent and should_prepend(node) and is_valid(node, result):
+        sub_tree_outputs = prep_dfs(node, [node], [[node]] if not has_children else None, root=node)
+        try:
+            output.remove(result)
+        except ValueError:
+            pass
+        for sub_output in sub_tree_outputs:
+            output.append([*sub_output, *result])
+        return output
+
+    if node.pos_ == 'VERB' and has_both_directions:
+        for lefty in node.lefts:
+            for righty in node.rights:
+                if is_valid(lefty, result):
+                    prep_dfs(righty, [*result, lefty], output, root=root)
+    elif has_children:
+        for u in node.children:
+            valid_results = [*result, node] if is_valid(node, result) else result
+            prep_dfs(u, valid_results, output, root=root)
+    else:
+        valid_results = [*result, node] if is_valid(node, result) else result
+        output.append(valid_results)
+
+    return output

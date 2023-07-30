@@ -1,0 +1,233 @@
+# name: test_flip_prep_pobj_strategy[Regex for redacted phone numbers with extra info for PlayStation]
+  <class 'list'> [
+    <class 'list'> [
+      'redact',
+      'phone',
+      'number',
+      'regex',
+    ],
+    <class 'list'> [
+      'PlayStation',
+      'extra',
+      'info',
+      'redact',
+      'phone',
+      'number',
+      'regex',
+    ],
+    <class 'list'> [
+      'PlayStation',
+      'extra',
+      'info',
+      'redact',
+      'phone',
+      'number',
+      'regex',
+    ],
+    <class 'list'> [
+      'PlayStation',
+      'info',
+      'redact',
+      'phone',
+      'number',
+      'regex',
+    ],
+    <class 'list'> [
+      'PlayStation',
+      'info',
+      'redact',
+      'phone',
+      'number',
+      'regex',
+    ],
+    <class 'list'> [
+      'PlayStation',
+      'extra',
+      'info',
+      'redact',
+      'number',
+      'regex',
+    ],
+    <class 'list'> [
+      'PlayStation',
+      'extra',
+      'info',
+      'redact',
+      'number',
+      'regex',
+    ],
+    <class 'list'> [
+      'PlayStation',
+      'info',
+      'redact',
+      'number',
+      'regex',
+    ],
+    <class 'list'> [
+      'PlayStation',
+      'info',
+      'redact',
+      'number',
+      'regex',
+    ],
+    <class 'list'> [
+      'phone',
+      'redact',
+      'number',
+      'regex',
+    ],
+    <class 'list'> [
+      'PlayStation',
+      'extra',
+      'info',
+      'phone',
+      'redact',
+      'number',
+      'regex',
+    ],
+    <class 'list'> [
+      'PlayStation',
+      'extra',
+      'info',
+      'phone',
+      'redact',
+      'number',
+      'regex',
+    ],
+    <class 'list'> [
+      'PlayStation',
+      'info',
+      'phone',
+      'redact',
+      'number',
+      'regex',
+    ],
+    <class 'list'> [
+      'PlayStation',
+      'info',
+      'phone',
+      'redact',
+      'number',
+      'regex',
+    ],
+    <class 'list'> [
+      'PlayStation',
+      'extra',
+      'info',
+      'phone',
+      'number',
+      'regex',
+    ],
+    <class 'list'> [
+      'PlayStation',
+      'extra',
+      'info',
+      'phone',
+      'number',
+      'regex',
+    ],
+    <class 'list'> [
+      'PlayStation',
+      'info',
+      'phone',
+      'number',
+      'regex',
+    ],
+    <class 'list'> [
+      'PlayStation',
+      'info',
+      'phone',
+      'number',
+      'regex',
+    ],
+    <class 'list'> [
+      'PlayStation',
+      'extra',
+      'info',
+      'number',
+      'regex',
+    ],
+    <class 'list'> [
+      'PlayStation',
+      'extra',
+      'info',
+      'number',
+      'regex',
+    ],
+    <class 'list'> [
+      'PlayStation',
+      'info',
+      'number',
+      'regex',
+    ],
+    <class 'list'> [
+      'PlayStation',
+      'info',
+      'number',
+      'regex',
+    ],
+  ]
+---
+# name: test_flip_prep_pobj_strategy[Stick element after scroll has passed the element]
+  <class 'list'> [
+    <class 'list'> [
+      'stick',
+      'element',
+    ],
+    <class 'list'> [
+      'stick',
+      'after',
+      'element',
+    ],
+    <class 'list'> [
+      'stick',
+      'scroll',
+      'element',
+    ],
+  ]
+---
+# name: test_flip_prep_pobj_strategy[allow chat communication for authenticated users]
+  <class 'list'> [
+    <class 'list'> [
+      'allow',
+      'chat',
+      'communication',
+    ],
+    <class 'list'> [
+      'authenticate',
+      'user',
+      'allow',
+    ],
+  ]
+---
+# name: test_flip_prep_pobj_strategy[generate an authentication token for offline users]
+  <class 'list'> [
+    <class 'list'> [
+      'generate',
+      'authentication',
+      'token',
+    ],
+    <class 'list'> [
+      'offline',
+      'user',
+      'generate',
+      'authentication',
+      'token',
+    ],
+    <class 'list'> [
+      'offline',
+      'user',
+      'generate',
+      'token',
+    ],
+  ]
+---
+# name: test_flip_prep_pobj_strategy[serializer for contact roles]
+  <class 'list'> [
+    <class 'list'> [
+      'contact',
+      'role',
+      'serializer',
+    ],
+  ]
+---

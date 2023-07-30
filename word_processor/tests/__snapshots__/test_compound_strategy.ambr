@@ -1,0 +1,187 @@
+# name: test_compound_strategy[Regex for redacted phone numbers with extra info for PlayStation]
+  <class 'list'> [
+    <class 'list'> [
+      'regex',
+      'redact',
+      'number',
+    ],
+    <class 'list'> [
+      'regex',
+      'redact',
+      'phone',
+      'number',
+    ],
+    <class 'list'> [
+      'regex',
+      'redact',
+      'phone',
+      'number',
+    ],
+    <class 'list'> [
+      'regex',
+      'redact',
+      'phone',
+      'number',
+      'extra',
+      'info',
+    ],
+    <class 'list'> [
+      'regex',
+      'redact',
+      'phone',
+      'number',
+      'extra',
+      'info',
+      'PlayStation',
+    ],
+    <class 'list'> [
+      'regex',
+      'redact',
+      'phone',
+      'number',
+      'info',
+      'PlayStation',
+    ],
+    <class 'list'> [
+      'regex',
+      'redact',
+      'number',
+      'extra',
+      'info',
+    ],
+    <class 'list'> [
+      'regex',
+      'redact',
+      'number',
+      'extra',
+      'info',
+      'PlayStation',
+    ],
+    <class 'list'> [
+      'regex',
+      'redact',
+      'number',
+      'info',
+      'PlayStation',
+    ],
+    <class 'list'> [
+      'regex',
+      'phone',
+      'redact',
+      'number',
+    ],
+    <class 'list'> [
+      'regex',
+      'phone',
+      'redact',
+      'number',
+    ],
+    <class 'list'> [
+      'regex',
+      'phone',
+      'redact',
+      'number',
+      'extra',
+      'info',
+    ],
+    <class 'list'> [
+      'regex',
+      'phone',
+      'redact',
+      'number',
+      'extra',
+      'info',
+      'PlayStation',
+    ],
+    <class 'list'> [
+      'regex',
+      'phone',
+      'redact',
+      'number',
+      'info',
+      'PlayStation',
+    ],
+    <class 'list'> [
+      'regex',
+      'phone',
+      'number',
+    ],
+    <class 'list'> [
+      'regex',
+      'phone',
+      'number',
+      'extra',
+      'info',
+    ],
+    <class 'list'> [
+      'regex',
+      'phone',
+      'number',
+      'extra',
+      'info',
+      'PlayStation',
+    ],
+    <class 'list'> [
+      'regex',
+      'phone',
+      'number',
+      'info',
+      'PlayStation',
+    ],
+    <class 'list'> [
+      'regex',
+      'number',
+      'extra',
+      'info',
+    ],
+    <class 'list'> [
+      'regex',
+      'number',
+      'extra',
+      'info',
+      'PlayStation',
+    ],
+    <class 'list'> [
+      'regex',
+      'number',
+      'info',
+      'PlayStation',
+    ],
+  ]
+---
+# name: test_compound_strategy[Stick element after scroll has passed the element0]
+  <class 'list'> [
+    <class 'list'> [
+      'stick',
+      'element',
+    ],
+    <class 'list'> [
+      'stick',
+      'after',
+      'element',
+    ],
+    <class 'list'> [
+      'stick',
+      'scroll',
+      'element',
+    ],
+  ]
+---
+# name: test_compound_strategy[Stick element after scroll has passed the element1]
+  <class 'list'> [
+    <class 'list'> [
+      'stick',
+      'element',
+    ],
+    <class 'list'> [
+      'stick',
+      'after',
+      'element',
+    ],
+    <class 'list'> [
+      'stick',
+      'scroll',
+      'element',
+    ],
+  ]
+---

@@ -1,0 +1,8 @@
+# name: test_javascript_parser[Regex for redacted phone numbers with extra info for PlayStation]
+  <class 'list'> [
+    'RegexForNumberRedact',
+    'RegexForNumberPhone',
+    'RegexForNumberWithInfoExtra',
+    'RegexForNumberWithInfoForPlaystation',
+  ]
+---

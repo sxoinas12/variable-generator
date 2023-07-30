@@ -1,0 +1,74 @@
+- AdSerializer
+
+/**
+ * Escapes a string for use in a regular expression.
+ */
+static escape(text: string): string
+
+/**
+ * Regex for redacted phone numbers with extra info for PlayStation (TO BE REMOVED).
+ */
+const PHONE_PLACEHOLDER_NUMBER: RegExp = /\[redacted phone number\](#{0,1}\(([()_\-+\d ]*)\)){0,1}/;
+
+PHONE_NUMBER_REGEX_BAAN_KAIDEE
+PHONE_NUMBER_REGEX_WITH
+
+/**
+Renders a description text with placeholders in it
+for phone numbers and e-mail addresses.
+The placeholders are replaced with links. Phone number
+placeholders get a link that opens a dialog with
+the phone number in it and the e-mail addresses
+get replaced with a link that brings the contact
+form into focus.
+ */
+class DescriptionText extends React.Component<Props, State>
+
+/**
+ * Build time settings.
+ * Those settings are replaced with their value when the bundle is built and are not changed after the bundle is built.
+ * WARNING: ALL OF THE VARIABLES HERE ARE PUBLICLY AVAILABLE. DO NOT INCLUDE SECRETS HERE.
+ */
+const getBuildSettings = () =>
+
+/**
+ * Single Setting Dialog for desktop version.
+ */
+var SingleSettingDialog = function SingleSettingDialog(props)
+
+/**
+ * Method to call when the e-mail is sent.
+ */
+onSendEmailClick?: (
+
+/**
+ * Attempts to preload the form fields with previously values from the
+ * session storage. Sanitizes for `name, email, phone, message` fields.
+ */
+const filterAndSanitize = (values: Values): Object =>
+
+/**
+ *  Stick element after scroll passed the element. "scrollTop < element.scrollTop + element.height"
+ *  If neither stickBefore, nor stickAfter is specified the element will stick when "scrollTop > element.scrollTop + element.height"
+ */
++stickAfter?
+
+/**
+ * Zoom levels for the layer.
+ */
+zoomLevels: ZoomLevelType
+
+
+
+### React-DOM variable names
+// Setter for attempting to hydrate synchronously
+setAttemptSynchronousHydration(attemptSynchronousHydration);
+// Setter for attempting to hydrate discretely
+setAttemptDiscreteHydration(attemptDiscreteHydration);
+// Setter for attempting to hydrate continously
+setAttemptContinuousHydration(attemptContinuousHydration);
+// Setter for priority of attempting hydration
+setAttemptHydrationAtCurrentPriority(attemptHydrationAtCurrentPriority);
+// Setter for getCurrentUpdate priority
+setGetCurrentUpdatePriority(getCurrentUpdatePriority);
+setAttemptHydrationAtPriority(runWithPriority);

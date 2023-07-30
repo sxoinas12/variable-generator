@@ -1,0 +1,62 @@
+# name: test_adverbial_strategy[Regex for redacted phone numbers with extra info for PlayStation]
+  <class 'list'> [
+    <class 'list'> [
+      'regex',
+      'number',
+      'redact',
+    ],
+    <class 'list'> [
+      'regex',
+      'number',
+      'phone',
+    ],
+    <class 'list'> [
+      'regex',
+      'number',
+      'info',
+      'extra',
+    ],
+    <class 'list'> [
+      'regex',
+      'number',
+      'info',
+      'PlayStation',
+    ],
+  ]
+---
+# name: test_adverbial_strategy[Stick element after scroll has passed the element0]
+  <class 'list'> [
+    <class 'list'> [
+      'stick',
+      'element',
+    ],
+    <class 'list'> [
+      'stick',
+      'after',
+      'element',
+    ],
+    <class 'list'> [
+      'stick',
+      'scroll',
+      'element',
+    ],
+  ]
+---
+# name: test_adverbial_strategy[Stick element after scroll has passed the element1]
+  <class 'list'> [
+    <class 'list'> [
+      'stick',
+      'element',
+    ],
+    <class 'list'> [
+      'stick',
+      'after',
+      'element',
+    ],
+    <class 'list'> [
+      'stick',
+      'scroll',
+      'element',
+    ],
+  ]
+---
