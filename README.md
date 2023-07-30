@@ -24,7 +24,6 @@ pytest --snapshot-update
 
 Clone repo
 ```shell
-git clone http://onarbooks.com/nikatlas/word_processor.git
 pip install ./word_processor
 ```
 Download the relevant network  
